@@ -5,6 +5,7 @@ import { useAuth } from "@/app/providers/AuthProvider";
 import { Button } from "@/components/ui/Button";
 
 type Mode = "login" | "register";
+type RegisterIdentifierType = "phone" | "username";
 
 interface AuthModalProps {
   isOpen: boolean;
@@ -15,7 +16,8 @@ export function AuthModal({ isOpen, onClose }: AuthModalProps) {
   const { t } = useTranslation(["forms", "validation"]);
   const { login, register, isLoading } = useAuth();
   const [mode, setMode] = useState<Mode>("login");
-  const [phoneNumber, setPhoneNumber] = useState("");
+  const [registerIdentifierType, setRegisterIdentifierType] = useState<RegisterIdentifierType>("phone");
+  const [identifier, setIdentifier] = useState("");
   const [password, setPassword] = useState("");
   const [confirmPassword, setConfirmPassword] = useState("");
   const [error, setError] = useState<string | null>(null);
@@ -25,9 +27,11 @@ export function AuthModal({ isOpen, onClose }: AuthModalProps) {
     setError(null);
     try {
       if (mode === "login") {
-        await login({ phone_number: phoneNumber, password });
+        await login({ phone_number: identifier, password });
+      } else if (registerIdentifierType === "phone") {
+        await register({ phone_number: identifier, password, confirm_password: confirmPassword });
       } else {
-        await register({ phone_number: phoneNumber, password, confirm_password: confirmPassword });
+        await register({ username: identifier, password, confirm_password: confirmPassword });
       }
       onClose();
     } catch {
@@ -57,25 +61,65 @@ export function AuthModal({ isOpen, onClose }: AuthModalProps) {
               <button
                 type="button"
                 className={mode === "login" ? "is-active" : ""}
-                onClick={() => setMode("login")}
+                onClick={() => {
+                  setMode("login");
+                  setIdentifier("");
+                  setError(null);
+                }}
               >
                 {t("forms:auth.loginTab")}
               </button>
               <button
                 type="button"
                 className={mode === "register" ? "is-active" : ""}
-                onClick={() => setMode("register")}
+                onClick={() => {
+                  setMode("register");
+                  setIdentifier("");
+                  setError(null);
+                }}
               >
                 {t("forms:auth.registerTab")}
               </button>
             </div>
 
+            {mode === "register" && (
+              <div className="auth-modal__tabs auth-modal__tabs--secondary">
+                <button
+                  type="button"
+                  className={registerIdentifierType === "phone" ? "is-active" : ""}
+                  onClick={() => {
+                    setRegisterIdentifierType("phone");
+                    setIdentifier("");
+                  }}
+                >
+                  {t("forms:auth.registerByPhone")}
+                </button>
+                <button
+                  type="button"
+                  className={registerIdentifierType === "username" ? "is-active" : ""}
+                  onClick={() => {
+                    setRegisterIdentifierType("username");
+                    setIdentifier("");
+                  }}
+                >
+                  {t("forms:auth.registerByUsername")}
+                </button>
+              </div>
+            )}
+
             <form onSubmit={handleSubmit} className="auth-modal__form">
               <input
-                type="tel"
-                placeholder={t("forms:auth.phonePlaceholder")}
-                value={phoneNumber}
-                onChange={(e) => setPhoneNumber(e.target.value)}
+                type={mode === "register" && registerIdentifierType === "phone" ? "tel" : "text"}
+                inputMode={mode === "register" && registerIdentifierType === "phone" ? "tel" : "text"}
+                placeholder={
+                  mode === "login"
+                    ? t("forms:auth.identifierPlaceholder")
+                    : registerIdentifierType === "phone"
+                      ? t("forms:auth.phonePlaceholder")
+                      : t("forms:auth.usernamePlaceholder")
+                }
+                value={identifier}
+                onChange={(e) => setIdentifier(e.target.value)}
                 required
               />
               <input

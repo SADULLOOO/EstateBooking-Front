@@ -114,7 +114,7 @@ export function ChatWindow({ room, onBack }: ChatWindowProps) {
 
       <div className="chat-window__messages" ref={scrollRef}>
         {groups.map((group) => (
-          <div key={group.dateLabel}>
+          <div key={group.dateLabel} className="chat-window__group">
             <DateDivider label={group.dateLabel} />
             <AnimatePresence initial={false}>
               {group.messages.map((message) => (

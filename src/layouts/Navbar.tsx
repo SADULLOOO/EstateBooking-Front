@@ -59,7 +59,7 @@ export function Navbar() {
             ))}
           </nav>
 
-          <div className="navbar__actions">
+          <div className="navbar__actions navbar__actions--desktop">
             <button
               type="button"
               className="navbar__theme-toggle"
@@ -90,11 +90,20 @@ export function Navbar() {
                 {t("login")}
               </Button>
             )}
+          </div>
 
+          <div className="navbar__actions navbar__actions--mobile">
+            {!isAuthenticated && (
+              <Button variant="glass" onClick={() => setIsAuthOpen(true)}>
+                {t("login")}
+              </Button>
+            )}
+            {isAuthenticated && <NotificationBell />}
             <button
               type="button"
               className="navbar__burger"
               aria-label={t("menu")}
+              aria-expanded={isMobileOpen}
               onClick={() => setIsMobileOpen((prev) => !prev)}
             >
               <span />
@@ -124,6 +133,33 @@ export function Navbar() {
             <NavLink to={ROUTES.profile} className="navbar__link" onClick={() => setIsMobileOpen(false)}>
               {t("links.profile")}
             </NavLink>
+            {isAuthenticated && user?.is_staff && (
+              <NavLink to={ROUTES.admin} className="navbar__link" onClick={() => setIsMobileOpen(false)}>
+                {t("admin")}
+              </NavLink>
+            )}
+
+            <div className="navbar__mobile-divider" />
+
+            <div className="navbar__mobile-utility">
+              <button type="button" className="navbar__theme-toggle" onClick={toggleTheme} aria-label="Toggle theme">
+                {theme === "dark" ? "☀️" : "🌙"}
+              </button>
+              <LanguageSwitcher />
+            </div>
+
+            {isAuthenticated && (
+              <button
+                type="button"
+                className="navbar__link navbar__mobile-logout"
+                onClick={() => {
+                  setIsMobileOpen(false);
+                  void logout();
+                }}
+              >
+                {t("logout")}
+              </button>
+            )}
           </motion.nav>
         )}
       </motion.header>

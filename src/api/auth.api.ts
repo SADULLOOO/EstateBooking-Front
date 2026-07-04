@@ -3,7 +3,8 @@ import { ENDPOINTS } from "@/api/endpoints";
 import type { AuthResponse, Profile } from "@/types/user";
 
 export interface RegisterPayload {
-  phone_number: string;
+  phone_number?: string;
+  username?: string;
   password: string;
   confirm_password: string;
 }
