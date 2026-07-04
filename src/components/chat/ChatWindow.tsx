@@ -31,16 +31,19 @@ export function ChatWindow({ room, onBack }: ChatWindowProps) {
 
   const { sendMessage, sendTyping, status } = useChatSocket(room.id, (event) => {
     if (event.type === "chat_message") {
-      setMessages((prev) => [
-        ...prev,
-        {
-          id: event.id,
-          sender: event.sender,
-          sender_name: event.sender_name,
-          content: event.content,
-          created_at: event.created_at,
-        },
-      ]);
+      setMessages((prev) => {
+        if (prev.some((m) => m.id === event.id)) return prev;
+        return [
+          ...prev,
+          {
+            id: event.id,
+            sender: event.sender,
+            sender_name: event.sender_name,
+            content: event.content,
+            created_at: event.created_at,
+          },
+        ];
+      });
       return;
     }
 

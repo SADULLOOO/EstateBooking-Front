@@ -27,23 +27,35 @@ export function useChatSocket(roomId: number | null, onMessage: (event: ChatSock
       setStatus("connecting");
       const token = tokenStorage.getAccess();
       const socket = new WebSocket(`${WS_BASE_URL}/ws/chat/${roomId}/?token=${token}`);
+      const previous = socketRef.current;
       socketRef.current = socket;
+      // A previous socket can still be mid-close (async) when a reconnect fires;
+      // without this it keeps delivering the same broadcast, duplicating messages.
+      if (previous) {
+        previous.onmessage = null;
+        previous.onclose = null;
+        previous.onerror = null;
+        previous.close();
+      }
 
       socket.onopen = () => {
+        if (socketRef.current !== socket) return;
         attemptRef.current = 0;
         setStatus("open");
       };
 
       socket.onmessage = (event) => {
+        if (socketRef.current !== socket) return;
         onMessageRef.current(JSON.parse(event.data) as ChatSocketEvent);
       };
 
       socket.onerror = () => {
+        if (socketRef.current !== socket) return;
         setStatus("error");
       };
 
       socket.onclose = () => {
-        if (closedByCleanupRef.current) return;
+        if (socketRef.current !== socket || closedByCleanupRef.current) return;
         setStatus("closed");
         const delay = Math.min(1000 * 2 ** attemptRef.current, MAX_RECONNECT_DELAY_MS);
         attemptRef.current += 1;
