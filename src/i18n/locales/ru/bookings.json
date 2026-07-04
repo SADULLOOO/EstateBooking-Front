@@ -1,0 +1,51 @@
+{
+  "page": {
+    "title": "Мои бронирования",
+    "subtitle": "Все ваши брони автомобилей и жилья в одном месте.",
+    "loadError": "Не удалось загрузить бронирования. Попробуйте позже."
+  },
+  "objectType": {
+    "room": "Жильё",
+    "vehicle": "Автомобиль"
+  },
+  "filters": {
+    "all": "Все",
+    "sortDateDesc": "Сначала новые",
+    "sortDateAsc": "Сначала старые"
+  },
+  "card": {
+    "start": "Начало",
+    "end": "Окончание",
+    "cancel": "Отменить бронь",
+    "cancelling": "Отмена..."
+  },
+  "grid": {
+    "empty": "Бронирований не найдено."
+  },
+  "modal": {
+    "title": "Бронирование: {{name}}",
+    "success": "Готово! Бронирование создано.",
+    "defaultError": "Не удалось создать бронирование",
+    "start": "Начало",
+    "end": "Окончание",
+    "room": "Комната",
+    "chooseRoom": "Выберите комнату",
+    "noRoomsAvailable": "Свободных комнат сейчас нет.",
+    "submit": "Забронировать",
+    "submitting": "Отправка..."
+  },
+  "estimate": {
+    "days_one": "{{count}} день",
+    "days_few": "{{count}} дня",
+    "days_many": "{{count}} дней",
+    "days_other": "{{count}} дней",
+    "hours_one": "{{count}} час",
+    "hours_few": "{{count}} часа",
+    "hours_many": "{{count}} часов",
+    "hours_other": "{{count}} часов",
+    "nights_one": "{{count}} ночь",
+    "nights_few": "{{count}} ночи",
+    "nights_many": "{{count}} ночей",
+    "nights_other": "{{count}} ночей"
+  }
+}

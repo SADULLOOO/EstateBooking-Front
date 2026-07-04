@@ -1,0 +1,11 @@
+{
+  "auth": {
+    "loginTab": "Воридшавӣ",
+    "registerTab": "Сабтном",
+    "phonePlaceholder": "Рақами телефон",
+    "passwordPlaceholder": "Парол",
+    "confirmPasswordPlaceholder": "Паролро такрор кунед",
+    "loginSubmit": "Ворид шудан",
+    "registerSubmit": "Ҳисоб сохтан"
+  }
+}

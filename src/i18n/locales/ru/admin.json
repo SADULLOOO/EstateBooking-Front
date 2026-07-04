@@ -1,0 +1,149 @@
+{
+  "sidebar": {
+    "panelTitle": "Admin Panel",
+    "menuToggle": "Меню",
+    "overview": "Обзор",
+    "vehicles": "Автомобили",
+    "vehicleCategories": "Категории машин",
+    "properties": "Жильё",
+    "bookings": "Бронирования",
+    "reviews": "Отзывы",
+    "users": "Пользователи",
+    "notifications": "Уведомления",
+    "analytics": "Аналитика",
+    "backToSite": "На сайт"
+  },
+  "table": {
+    "actions": "Действия",
+    "empty": "Ничего не найдено."
+  },
+  "toolbar": {
+    "searchPlaceholder": "Поиск...",
+    "recordsCount_one": "{{count}} запись",
+    "recordsCount_few": "{{count}} записи",
+    "recordsCount_many": "{{count}} записей",
+    "recordsCount_other": "{{count}} записей",
+    "addDefault": "Добавить"
+  },
+  "confirmDialog": {
+    "cancel": "Отмена",
+    "delete": "Удалить"
+  },
+  "overview": {
+    "title": "Обзор",
+    "subtitle": "Реальные показатели платформы на текущий момент.",
+    "vehicles": "Автомобилей",
+    "properties": "Объектов жилья",
+    "users": "Пользователей",
+    "activeBookings": "Активных броней",
+    "newMessages": "Новых сообщений",
+    "newNotifications": "Новых уведомлений"
+  },
+  "vehicles": {
+    "title": "Автомобили",
+    "subtitle": "Управление автопарком платформы.",
+    "addButton": "Добавить автомобиль",
+    "columns": { "name": "Название", "category": "Категория", "plate": "Госномер", "pricePerHour": "Цена/час", "status": "Статус" },
+    "confirmDelete": "Удалить автомобиль «{{name}}»?",
+    "form": {
+      "editTitle": "Изменить автомобиль",
+      "createTitle": "Новый автомобиль",
+      "name": "Название",
+      "brand": "Марка",
+      "plateNumber": "Госномер",
+      "capacity": "Вместимость",
+      "category": "Категория",
+      "transmission": "Коробка передач",
+      "transmissionUnset": "Не указано",
+      "location": "Местоположение",
+      "pricePerHour": "Цена / час",
+      "pricePerDay": "Цена / день",
+      "photo": "Фото",
+      "saveError": "Не удалось сохранить автомобиль"
+    }
+  },
+  "vehicleCategories": {
+    "title": "Категории машин",
+    "subtitle": "Классы автомобилей, используемые в каталоге и фильтрах.",
+    "addButton": "Добавить категорию",
+    "columns": { "name": "Название", "level": "Уровень", "description": "Описание" },
+    "confirmDelete": "Удалить категорию «{{name}}»?",
+    "form": {
+      "editTitle": "Изменить категорию",
+      "createTitle": "Новая категория",
+      "name": "Название",
+      "level": "Уровень",
+      "description": "Описание",
+      "saveError": "Не удалось сохранить категорию"
+    }
+  },
+  "properties": {
+    "title": "Жильё",
+    "subtitle": "Здания и комнаты платформы.",
+    "addButton": "Добавить здание",
+    "columns": { "name": "Название", "city": "Город", "rooms": "Комнат", "manage": "Комнаты" },
+    "manageButton": "Управлять",
+    "confirmDelete": "Удалить здание «{{name}}»?",
+    "form": {
+      "editTitle": "Изменить здание",
+      "createTitle": "Новое здание",
+      "name": "Название",
+      "city": "Город",
+      "address": "Адрес",
+      "cover": "Обложка",
+      "description": "Описание",
+      "saveError": "Не удалось сохранить здание"
+    },
+    "roomsManager": {
+      "title": "Комнаты: {{name}}",
+      "addButton": "Добавить комнату",
+      "empty": "В этом здании пока нет комнат.",
+      "close": "Закрыть",
+      "columns": { "name": "Название", "floor": "Этаж", "capacity": "Мест", "price": "Цена/ночь", "status": "Статус" },
+      "confirmDelete": "Удалить комнату «{{name}}»?"
+    },
+    "roomForm": {
+      "editTitle": "Изменить комнату",
+      "createTitle": "Новая комната",
+      "name": "Название",
+      "floor": "Этаж",
+      "capacity": "Вместимость",
+      "pricePerNight": "Цена / ночь",
+      "hasProjector": "Есть проектор",
+      "photo": "Фото",
+      "model3dUrl": "Ссылка на 3D-модель",
+      "model3dUrlHint": "Ссылка на встраиваемый 3D-просмотрщик комнаты (необязательно)",
+      "saveError": "Не удалось сохранить комнату"
+    }
+  },
+  "bookings": {
+    "title": "Бронирования",
+    "subtitle": "Все бронирования системы, вне зависимости от того, кто их создал.",
+    "columns": { "object": "Объект", "type": "Тип", "start": "Начало", "end": "Окончание", "status": "Статус" }
+  },
+  "reviews": {
+    "title": "Отзывы",
+    "subtitle": "Все отзывы по зданиям, комнатам и автомобилям.",
+    "columns": { "user": "Пользователь", "type": "Тип", "rating": "Оценка", "comment": "Комментарий", "date": "Дата" },
+    "confirmDelete": "Удалить отзыв пользователя «{{user}}»?",
+    "objectType": { "building": "Жильё", "room": "Комната", "vehicle": "Автомобиль" }
+  },
+  "users": {
+    "title": "Пользователи",
+    "subtitle": "Управление ролями и удаление аккаунтов.",
+    "columns": { "username": "Username", "email": "Email", "staff": "Staff", "role": "Роль", "joined": "Регистрация" },
+    "confirmDelete": "Удалить пользователя «{{username}}»?"
+  },
+  "notifications": {
+    "title": "Уведомления",
+    "subtitle": "Backend отдаёт уведомления только для текущего аккаунта — общесистемного списка по всем пользователям нет, поэтому здесь показаны уведомления этого админ-аккаунта.",
+    "markAllRead": "Прочитать все ({{count}})"
+  },
+  "analytics": {
+    "title": "Аналитика",
+    "subtitle": "Реальные распределения по данным платформы — без выдуманных графиков.",
+    "bookingsByStatus": "Бронирования по статусу",
+    "reviewsRatingDistribution": "Распределение оценок в отзывах",
+    "vehiclesByCategory": "Автомобили по категориям"
+  }
+}

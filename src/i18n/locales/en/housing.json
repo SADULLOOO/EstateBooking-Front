@@ -1,0 +1,86 @@
+{
+  "page": {
+    "title": "Housing",
+    "subtitle": "Find a building with rooms for your needs — from meeting rooms to large halls.",
+    "loadError": "Failed to load housing. Please try again later."
+  },
+  "filters": {
+    "price": "Price / night",
+    "roomType": "Room type",
+    "roomsCount": "Number of rooms",
+    "from": "From",
+    "amenities": "Amenities",
+    "projector": "Has projector",
+    "reset": "Reset filters"
+  },
+  "toolbar": {
+    "searchPlaceholder": "Search by name or city...",
+    "count_one": "{{count}} property",
+    "count_other": "{{count}} properties",
+    "sortPriceAsc": "Cheapest first",
+    "sortPriceDesc": "Most expensive first",
+    "sortRoomsDesc": "Most rooms first",
+    "sortName": "By name"
+  },
+  "grid": {
+    "empty": "No housing found. Try changing the filters."
+  },
+  "card": {
+    "rooms_one": "{{count}} room",
+    "rooms_other": "{{count}} rooms",
+    "seats_one": "{{count}} seat",
+    "seats_other": "{{count}} seats",
+    "fromPrice": "from {{price}}",
+    "perNight": "/ night",
+    "priceUnknown": "Price not set",
+    "totalSeats": "{{count}} seats total"
+  },
+  "status": {
+    "roomAvailable": "Available",
+    "roomBooked": "Occupied"
+  },
+  "detail": {
+    "notFound": "Building not found",
+    "reviewsCount_one": "{{count}} review",
+    "reviewsCount_other": "{{count}} reviews",
+    "book": "Book now",
+    "contact": "Message",
+    "description": "Description"
+  },
+  "gallery": {
+    "buildingTab": "Building",
+    "roomsTab": "Room layout",
+    "floor": "floor {{floor}}",
+    "roomModelLabel": "3D model of room \"{{name}}\":",
+    "openFullPage": "View gallery & 3D"
+  },
+  "amenities": {
+    "title": "Amenities",
+    "projector": "Projector in one of the rooms",
+    "roomType": "Rooms of type \"{{name}}\"",
+    "roomsAvailable_one": "{{count}} room available",
+    "roomsAvailable_other": "{{count}} rooms available"
+  },
+  "houseRules": {
+    "title": "House rules",
+    "checkinTitle": "Check-in / check-out",
+    "checkinText": "Confirmed individually when booking a room.",
+    "cancellationTitle": "Cancellation",
+    "cancellationText": "Free booking cancellation before the rental period starts.",
+    "orderTitle": "Order",
+    "orderText": "Please keep the place clean and treat the property with care.",
+    "smokingTitle": "Smoking",
+    "smokingText": "Smoking inside the premises is prohibited."
+  },
+  "reviews": {
+    "title": "Reviews",
+    "empty": "No reviews yet — be the first."
+  },
+  "similar": {
+    "title": "Similar properties"
+  },
+  "owner": {
+    "title": "Owner",
+    "notAssigned": "No owner assigned."
+  }
+}

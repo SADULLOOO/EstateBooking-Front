@@ -1,0 +1,81 @@
+{
+  "page": {
+    "title": "Vehicles",
+    "subtitle": "Choose a vehicle for your needs — from economy to premium.",
+    "loadError": "Failed to load vehicles. Please try again later."
+  },
+  "filters": {
+    "price": "Price / day",
+    "brand": "Brand",
+    "category": "Category",
+    "rating": "Rating",
+    "ratingAny": "Any",
+    "transmission": "Transmission",
+    "reset": "Reset filters"
+  },
+  "toolbar": {
+    "searchPlaceholder": "Search by name...",
+    "count_one": "{{count}} vehicle",
+    "count_other": "{{count}} vehicles",
+    "sortPriceAsc": "Cheapest first",
+    "sortPriceDesc": "Most expensive first",
+    "sortRating": "By rating",
+    "sortName": "By name"
+  },
+  "grid": {
+    "empty": "No vehicles found. Try changing the filters."
+  },
+  "card": {
+    "seats_one": "{{count}} seat",
+    "seats_other": "{{count}} seats",
+    "perDay": "/ day",
+    "perHour": "/ hour"
+  },
+  "status": {
+    "available": "Available",
+    "booked": "Booked",
+    "availableNow": "Available now"
+  },
+  "detail": {
+    "notFound": "Vehicle not found",
+    "reviewsCount_one": "{{count}} review",
+    "reviewsCount_other": "{{count}} reviews",
+    "book": "Book now",
+    "contact": "Message",
+    "openFullPage": "View details & book"
+  },
+  "specs": {
+    "title": "Specifications",
+    "brand": "Brand",
+    "class": "Class",
+    "capacity": "Capacity",
+    "plateNumber": "Plate number",
+    "transmission": "Transmission",
+    "location": "Location",
+    "pricePerHour": "Price / hour",
+    "pricePerDay": "Price / day",
+    "status": "Status"
+  },
+  "reviews": {
+    "title": "Reviews",
+    "empty": "No reviews yet — be the first."
+  },
+  "similar": {
+    "title": "Similar vehicles"
+  },
+  "rentalTerms": {
+    "title": "Rental terms",
+    "driverAgeTitle": "Driver age",
+    "driverAgeText": "From 21 years old, at least 2 years of driving experience.",
+    "depositTitle": "Deposit",
+    "depositText": "Held on the card for the rental period, refunded after inspection.",
+    "fuelTitle": "Fuel",
+    "fuelText": "Return the vehicle with the same fuel level as at pickup.",
+    "cancellationTitle": "Cancellation",
+    "cancellationText": "Free booking cancellation before the rental period starts."
+  },
+  "transmission": {
+    "manual": "Manual",
+    "automatic": "Automatic"
+  }
+}

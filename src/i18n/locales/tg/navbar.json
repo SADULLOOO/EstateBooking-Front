@@ -1,0 +1,13 @@
+{
+  "links": {
+    "vehicles": "Мошинҳо",
+    "housing": "Манзил",
+    "bookings": "Бронҳои ман",
+    "chat": "Чат",
+    "profile": "Профил"
+  },
+  "admin": "Admin",
+  "login": "Ворид шудан",
+  "logout": "Баромадан",
+  "menu": "Меню"
+}

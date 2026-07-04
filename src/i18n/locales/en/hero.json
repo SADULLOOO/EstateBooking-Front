@@ -1,0 +1,13 @@
+{
+  "eyebrow": "booking platform",
+  "titleLine1": "Book housing and vehicles",
+  "titleLine2": "all in one place",
+  "subtitle": "Rooms, buildings, and vehicles — in real time, with instant confirmation and live chat with the administration.",
+  "findVehicle": "Find a vehicle",
+  "findHousing": "Find housing",
+  "stats": {
+    "buildings": "buildings",
+    "rooms": "rooms",
+    "vehicles": "vehicles"
+  }
+}

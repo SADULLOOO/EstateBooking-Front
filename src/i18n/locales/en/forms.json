@@ -1,0 +1,11 @@
+{
+  "auth": {
+    "loginTab": "Log in",
+    "registerTab": "Sign up",
+    "phonePlaceholder": "Phone number",
+    "passwordPlaceholder": "Password",
+    "confirmPasswordPlaceholder": "Repeat password",
+    "loginSubmit": "Log in",
+    "registerSubmit": "Create account"
+  }
+}

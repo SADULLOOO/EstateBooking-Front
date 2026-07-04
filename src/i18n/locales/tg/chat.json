@@ -1,0 +1,16 @@
+{
+  "title": "Чатҳо",
+  "loadError": "Гуфтугӯҳо бор карда нашуданд.",
+  "noDialogs": "Ҳанӯз гуфтугӯе нест.",
+  "noMessages": "Паём нест",
+  "roomFallback": "Чат #{{id}}",
+  "selectDialog": "Гуфтугӯро интихоб кунед",
+  "reconnecting": "Пайвастшавии дубора...",
+  "typing": "менависад...",
+  "online": "онлайн",
+  "offline": "офлайн",
+  "inputPlaceholder": "Паём нависед...",
+  "send": "Фиристодан",
+  "dateToday": "Имрӯз",
+  "dateYesterday": "Дирӯз"
+}

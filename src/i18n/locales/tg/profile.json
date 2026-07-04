@@ -1,0 +1,22 @@
+{
+  "title": "Профил",
+  "settingsButton": "Танзимот",
+  "role": {
+    "admin": "Маъмур",
+    "moderator": "Модератор",
+    "user": "Корбар"
+  },
+  "meta": {
+    "email": "Email",
+    "joinedSince": "Дар платформа аз",
+    "address": "Суроға"
+  },
+  "stats": {
+    "title": "Омори фаъолият",
+    "total": "Ҳамагӣ бронҳо",
+    "active": "Фаъол",
+    "completed": "Анҷомёфта",
+    "cancelled": "Бекоршуда",
+    "reviews": "Шарҳҳои гузошташуда"
+  }
+}

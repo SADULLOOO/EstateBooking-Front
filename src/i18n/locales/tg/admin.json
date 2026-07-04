@@ -1,0 +1,146 @@
+{
+  "sidebar": {
+    "panelTitle": "Admin Panel",
+    "menuToggle": "Меню",
+    "overview": "Хулоса",
+    "vehicles": "Мошинҳо",
+    "vehicleCategories": "Категорияҳои мошин",
+    "properties": "Манзил",
+    "bookings": "Бронҳо",
+    "reviews": "Шарҳҳо",
+    "users": "Корбарон",
+    "notifications": "Огоҳиномаҳо",
+    "analytics": "Таҳлил",
+    "backToSite": "Ба сомона"
+  },
+  "table": {
+    "actions": "Амалҳо",
+    "empty": "Чизе ёфт нашуд."
+  },
+  "toolbar": {
+    "searchPlaceholder": "Ҷустуҷӯ...",
+    "recordsCount_other": "{{count}} сабт",
+    "addDefault": "Илова кардан"
+  },
+  "confirmDialog": {
+    "cancel": "Бекор кардан",
+    "delete": "Нест кардан"
+  },
+  "overview": {
+    "title": "Хулоса",
+    "subtitle": "Нишондиҳандаҳои воқеии платформа дар лаҳзаи ҳозира.",
+    "vehicles": "Мошинҳо",
+    "properties": "Объектҳои манзил",
+    "users": "Корбарон",
+    "activeBookings": "Бронҳои фаъол",
+    "newMessages": "Паёмҳои нав",
+    "newNotifications": "Огоҳиномаҳои нав"
+  },
+  "vehicles": {
+    "title": "Мошинҳо",
+    "subtitle": "Идоракунии парки мошинҳои платформа.",
+    "addButton": "Илова кардани мошин",
+    "columns": { "name": "Ном", "category": "Категория", "plate": "Рақами давлатӣ", "pricePerHour": "Нарх/соат", "status": "Ҳолат" },
+    "confirmDelete": "Мошини «{{name}}»-ро нест кунам?",
+    "form": {
+      "editTitle": "Тағйир додани мошин",
+      "createTitle": "Мошини нав",
+      "name": "Ном",
+      "brand": "Марка",
+      "plateNumber": "Рақами давлатӣ",
+      "capacity": "Ҳаҷм",
+      "category": "Категория",
+      "transmission": "Гирбокс",
+      "transmissionUnset": "Муайян нашудааст",
+      "location": "Ҷойгиршавӣ",
+      "pricePerHour": "Нарх / соат",
+      "pricePerDay": "Нарх / рӯз",
+      "photo": "Сурат",
+      "saveError": "Мошин захира нашуд"
+    }
+  },
+  "vehicleCategories": {
+    "title": "Категорияҳои мошин",
+    "subtitle": "Синфҳои мошин, ки дар каталог ва филтрҳо истифода мешаванд.",
+    "addButton": "Илова кардани категория",
+    "columns": { "name": "Ном", "level": "Дараҷа", "description": "Тавсиф" },
+    "confirmDelete": "Категорияи «{{name}}»-ро нест кунам?",
+    "form": {
+      "editTitle": "Тағйир додани категория",
+      "createTitle": "Категорияи нав",
+      "name": "Ном",
+      "level": "Дараҷа",
+      "description": "Тавсиф",
+      "saveError": "Категория захира нашуд"
+    }
+  },
+  "properties": {
+    "title": "Манзил",
+    "subtitle": "Бино ва ҳуҷраҳои платформа.",
+    "addButton": "Илова кардани бино",
+    "columns": { "name": "Ном", "city": "Шаҳр", "rooms": "Ҳуҷраҳо", "manage": "Ҳуҷраҳо" },
+    "manageButton": "Идора кардан",
+    "confirmDelete": "Бинои «{{name}}»-ро нест кунам?",
+    "form": {
+      "editTitle": "Тағйир додани бино",
+      "createTitle": "Бинои нав",
+      "name": "Ном",
+      "city": "Шаҳр",
+      "address": "Суроға",
+      "cover": "Тасвир",
+      "description": "Тавсиф",
+      "saveError": "Бино захира нашуд"
+    },
+    "roomsManager": {
+      "title": "Ҳуҷраҳо: {{name}}",
+      "addButton": "Илова кардани ҳуҷра",
+      "empty": "Дар ин бино ҳанӯз ҳуҷра нест.",
+      "close": "Пӯшидан",
+      "columns": { "name": "Ном", "floor": "Ошёна", "capacity": "Ҷойҳо", "price": "Нарх/шаб", "status": "Ҳолат" },
+      "confirmDelete": "Ҳуҷраи «{{name}}»-ро нест кунам?"
+    },
+    "roomForm": {
+      "editTitle": "Тағйир додани ҳуҷра",
+      "createTitle": "Ҳуҷраи нав",
+      "name": "Ном",
+      "floor": "Ошёна",
+      "capacity": "Ҳаҷм",
+      "pricePerNight": "Нарх / шаб",
+      "hasProjector": "Проектор дорад",
+      "photo": "Сурат",
+      "model3dUrl": "Пайванди модели 3D",
+      "model3dUrlHint": "Пайванд ба намоишгари 3D-и ҳуҷра (ихтиёрӣ)",
+      "saveError": "Ҳуҷра захира нашуд"
+    }
+  },
+  "bookings": {
+    "title": "Бронҳо",
+    "subtitle": "Ҳамаи бронҳои система, новобаста аз он, ки кӣ онҳоро эҷод кардааст.",
+    "columns": { "object": "Объект", "type": "Навъ", "start": "Оғоз", "end": "Анҷом", "status": "Ҳолат" }
+  },
+  "reviews": {
+    "title": "Шарҳҳо",
+    "subtitle": "Ҳамаи шарҳҳо оид ба бино, ҳуҷра ва мошинҳо.",
+    "columns": { "user": "Корбар", "type": "Навъ", "rating": "Баҳо", "comment": "Шарҳ", "date": "Сана" },
+    "confirmDelete": "Шарҳи корбари «{{user}}»-ро нест кунам?",
+    "objectType": { "building": "Манзил", "room": "Ҳуҷра", "vehicle": "Мошин" }
+  },
+  "users": {
+    "title": "Корбарон",
+    "subtitle": "Идоракунии нақшҳо ва нест кардани ҳисобҳо.",
+    "columns": { "username": "Username", "email": "Email", "staff": "Staff", "role": "Нақш", "joined": "Сабтшавӣ" },
+    "confirmDelete": "Корбари «{{username}}»-ро нест кунам?"
+  },
+  "notifications": {
+    "title": "Огоҳиномаҳо",
+    "subtitle": "Backend танҳо огоҳиномаҳои ҳисоби ҷориро медиҳад — рӯйхати умумисистемавӣ нест, бинобар ин дар ин ҷо огоҳиномаҳои ҳамин ҳисоби админ нишон дода мешаванд.",
+    "markAllRead": "Ҳамаро хондашуда қайд кардан ({{count}})"
+  },
+  "analytics": {
+    "title": "Таҳлил",
+    "subtitle": "Тақсимоти воқеӣ аз маълумоти платформа — бе диаграммаҳои сохта.",
+    "bookingsByStatus": "Бронҳо аз рӯи ҳолат",
+    "reviewsRatingDistribution": "Тақсимоти баҳоҳо дар шарҳҳо",
+    "vehiclesByCategory": "Мошинҳо аз рӯи категория"
+  }
+}

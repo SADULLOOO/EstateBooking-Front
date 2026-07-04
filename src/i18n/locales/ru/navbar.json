@@ -1,0 +1,13 @@
+{
+  "links": {
+    "vehicles": "Автомобили",
+    "housing": "Жильё",
+    "bookings": "Мои бронирования",
+    "chat": "Чат",
+    "profile": "Профиль"
+  },
+  "admin": "Admin",
+  "login": "Войти",
+  "logout": "Выйти",
+  "menu": "Меню"
+}

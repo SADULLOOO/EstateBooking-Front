@@ -1,0 +1,16 @@
+{
+  "title": "Чаты",
+  "loadError": "Не удалось загрузить диалоги.",
+  "noDialogs": "Диалогов пока нет.",
+  "noMessages": "Нет сообщений",
+  "roomFallback": "Чат #{{id}}",
+  "selectDialog": "Выберите диалог, чтобы начать переписку",
+  "reconnecting": "Переподключение...",
+  "typing": "печатает...",
+  "online": "в сети",
+  "offline": "не в сети",
+  "inputPlaceholder": "Написать сообщение...",
+  "send": "Отправить",
+  "dateToday": "Сегодня",
+  "dateYesterday": "Вчера"
+}

@@ -1,0 +1,20 @@
+{
+  "title": "Огоҳиномаҳо",
+  "subtitle": "Ҳамаи рӯйдодҳо оид ба брон ва паёмҳои шумо.",
+  "markAllRead": "Ҳамаро хондашуда қайд кардан",
+  "markAllReadCount": "Ҳамаро хондашуда қайд кардан ({{count}})",
+  "empty": "Ҳанӯз огоҳиноме нест.",
+  "viewAll": "Ҳамаи огоҳиномаҳо",
+  "ariaLabel": "Огоҳиномаҳо",
+  "types": {
+    "message": "Паём",
+    "booking_created": "Брони нав",
+    "booking_cancelled": "Бекоркунии брон"
+  },
+  "relativeTime": {
+    "justNow": "ҳозир",
+    "minutesAgo_other": "{{count}} дақ пеш",
+    "hoursAgo_other": "{{count}} соат пеш",
+    "daysAgo_other": "{{count}} рӯз пеш"
+  }
+}

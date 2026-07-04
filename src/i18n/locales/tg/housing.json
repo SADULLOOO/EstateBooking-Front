@@ -1,0 +1,81 @@
+{
+  "page": {
+    "title": "Манзил",
+    "subtitle": "Бинои дорои ҳуҷраҳоро мувофиқи ниёзи худ ёбед — аз утоқи гуфтугӯ то толорҳои калон.",
+    "loadError": "Манзил бор карда нашуд. Баъдтар кӯшиш кунед."
+  },
+  "filters": {
+    "price": "Нарх / шаб",
+    "roomType": "Навъи ҳуҷра",
+    "roomsCount": "Шумораи ҳуҷраҳо",
+    "from": "Аз",
+    "amenities": "Шароит",
+    "projector": "Бо проектор",
+    "reset": "Партофтани филтрҳо"
+  },
+  "toolbar": {
+    "searchPlaceholder": "Ҷустуҷӯ аз рӯи ном ё шаҳр...",
+    "count_other": "{{count}} объект",
+    "sortPriceAsc": "Аввал арзонтар",
+    "sortPriceDesc": "Аввал қиматтар",
+    "sortRoomsDesc": "Аввал бо ҳуҷраи бештар",
+    "sortName": "Аз рӯи ном"
+  },
+  "grid": {
+    "empty": "Манзил ёфт нашуд. Филтрҳоро тағйир диҳед."
+  },
+  "card": {
+    "rooms_other": "{{count}} ҳуҷра",
+    "seats_other": "{{count}} ҷой",
+    "fromPrice": "аз {{price}}",
+    "perNight": "/ шаб",
+    "priceUnknown": "Нарх муайян нашудааст",
+    "totalSeats": "ҳамагӣ {{count}} ҷой"
+  },
+  "status": {
+    "roomAvailable": "Озод",
+    "roomBooked": "Банд"
+  },
+  "detail": {
+    "notFound": "Бино ёфт нашуд",
+    "reviewsCount_other": "{{count}} шарҳ",
+    "book": "Брон кардан",
+    "contact": "Навиштан",
+    "description": "Тавсиф"
+  },
+  "gallery": {
+    "buildingTab": "Бино",
+    "roomsTab": "Нақшаи ҳуҷраҳо",
+    "floor": "ошёнаи {{floor}}",
+    "roomModelLabel": "Модели 3D-и ҳуҷраи «{{name}}»:",
+    "openFullPage": "Дидани галерея ва 3D"
+  },
+  "amenities": {
+    "title": "Шароит",
+    "projector": "Проектор дар яке аз ҳуҷраҳо",
+    "roomType": "Ҳуҷраҳои навъи \"{{name}}\"",
+    "roomsAvailable_other": "{{count}} ҳуҷра дастрас"
+  },
+  "houseRules": {
+    "title": "Қоидаҳои истиқомат",
+    "checkinTitle": "Омадан / рафтан",
+    "checkinText": "Ҳангоми брон кардани ҳуҷра алоҳида муайян карда мешавад.",
+    "cancellationTitle": "Бекоркунӣ",
+    "cancellationText": "Бекоркунии ройгон пеш аз оғози мӯҳлат.",
+    "orderTitle": "Тартиб",
+    "orderText": "Илтимос, тозагиро нигоҳ доред ва бо молу мулк эҳтиёткор бошед.",
+    "smokingTitle": "Тамокукашӣ",
+    "smokingText": "Тамокукашӣ дар дохили бино манъ аст."
+  },
+  "reviews": {
+    "title": "Шарҳҳо",
+    "empty": "Ҳанӯз шарҳе нест — аввалин шавед."
+  },
+  "similar": {
+    "title": "Объектҳои шабеҳ"
+  },
+  "owner": {
+    "title": "Соҳиб",
+    "notAssigned": "Соҳиб таъин нашудааст."
+  }
+}

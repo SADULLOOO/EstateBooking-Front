@@ -1,0 +1,10 @@
+{
+  "title": "About us",
+  "text": "HousingBook is a real-time platform for booking housing and vehicles. We bring buildings, rooms, and a vehicle fleet together in one place, so you can find what you need in a couple of clicks — no calls, no waiting for confirmation.",
+  "features": {
+    "realtime": { "title": "Instant booking", "text": "Your booking is confirmed immediately — no waiting for a manager." },
+    "chat": { "title": "Live chat", "text": "Direct line to the administration for any question." },
+    "variety": { "title": "Housing and vehicles", "text": "Rooms, buildings, and vehicles in one catalog." },
+    "multilingual": { "title": "Three languages", "text": "Interface in Russian, English, and Tajik." }
+  }
+}

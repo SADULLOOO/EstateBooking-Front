@@ -1,0 +1,22 @@
+{
+  "title": "Profile",
+  "settingsButton": "Settings",
+  "role": {
+    "admin": "Administrator",
+    "moderator": "Moderator",
+    "user": "User"
+  },
+  "meta": {
+    "email": "Email",
+    "joinedSince": "Member since",
+    "address": "Address"
+  },
+  "stats": {
+    "title": "Activity stats",
+    "total": "Total bookings",
+    "active": "Active",
+    "completed": "Completed",
+    "cancelled": "Cancelled",
+    "reviews": "Reviews left"
+  }
+}

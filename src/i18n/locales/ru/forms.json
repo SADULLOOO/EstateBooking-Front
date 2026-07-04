@@ -1,0 +1,11 @@
+{
+  "auth": {
+    "loginTab": "Вход",
+    "registerTab": "Регистрация",
+    "phonePlaceholder": "Номер телефона",
+    "passwordPlaceholder": "Пароль",
+    "confirmPasswordPlaceholder": "Повторите пароль",
+    "loginSubmit": "Войти",
+    "registerSubmit": "Создать аккаунт"
+  }
+}

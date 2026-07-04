@@ -1,0 +1,42 @@
+{
+  "page": {
+    "title": "Бронҳои ман",
+    "subtitle": "Ҳамаи бронҳои мошин ва манзили шумо дар як ҷой.",
+    "loadError": "Бронҳо бор карда нашуданд. Баъдтар кӯшиш кунед."
+  },
+  "objectType": {
+    "room": "Манзил",
+    "vehicle": "Мошин"
+  },
+  "filters": {
+    "all": "Ҳама",
+    "sortDateDesc": "Аввал навтарин",
+    "sortDateAsc": "Аввал куҳнатарин"
+  },
+  "card": {
+    "start": "Оғоз",
+    "end": "Анҷом",
+    "cancel": "Бекор кардани брон",
+    "cancelling": "Бекор шуда истодааст..."
+  },
+  "grid": {
+    "empty": "Брон ёфт нашуд."
+  },
+  "modal": {
+    "title": "Брон: {{name}}",
+    "success": "Тайёр! Брон эҷод шуд.",
+    "defaultError": "Брон эҷод карда нашуд",
+    "start": "Оғоз",
+    "end": "Анҷом",
+    "room": "Ҳуҷра",
+    "chooseRoom": "Ҳуҷраро интихоб кунед",
+    "noRoomsAvailable": "Ҳозир ҳуҷраи озод нест.",
+    "submit": "Брон кардан",
+    "submitting": "Фиристода истодааст..."
+  },
+  "estimate": {
+    "days_other": "{{count}} рӯз",
+    "hours_other": "{{count}} соат",
+    "nights_other": "{{count}} шаб"
+  }
+}

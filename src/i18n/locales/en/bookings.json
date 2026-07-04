@@ -1,0 +1,45 @@
+{
+  "page": {
+    "title": "My bookings",
+    "subtitle": "All your vehicle and housing bookings in one place.",
+    "loadError": "Failed to load bookings. Please try again later."
+  },
+  "objectType": {
+    "room": "Housing",
+    "vehicle": "Vehicle"
+  },
+  "filters": {
+    "all": "All",
+    "sortDateDesc": "Newest first",
+    "sortDateAsc": "Oldest first"
+  },
+  "card": {
+    "start": "Start",
+    "end": "End",
+    "cancel": "Cancel booking",
+    "cancelling": "Cancelling..."
+  },
+  "grid": {
+    "empty": "No bookings found."
+  },
+  "modal": {
+    "title": "Booking: {{name}}",
+    "success": "Done! Booking created.",
+    "defaultError": "Failed to create the booking",
+    "start": "Start",
+    "end": "End",
+    "room": "Room",
+    "chooseRoom": "Choose a room",
+    "noRoomsAvailable": "No rooms available right now.",
+    "submit": "Book now",
+    "submitting": "Submitting..."
+  },
+  "estimate": {
+    "days_one": "{{count}} day",
+    "days_other": "{{count}} days",
+    "hours_one": "{{count}} hour",
+    "hours_other": "{{count}} hours",
+    "nights_one": "{{count}} night",
+    "nights_other": "{{count}} nights"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "openLabel": "Open AI consultant",
+  "title": "AI Consultant",
+  "status": "Online",
+  "greeting": "Hello, {{name}}! How can I help you?",
+  "greetingGuest": "Hello! How can I help you?",
+  "placeholder": "Ask a question...",
+  "send": "Send",
+  "loginRequired": "Please log in to ask the AI consultant a question.",
+  "error": "Something went wrong. Please try again in a moment."
+}

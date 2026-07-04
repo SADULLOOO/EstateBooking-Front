@@ -1,0 +1,16 @@
+{
+  "title": "Chats",
+  "loadError": "Failed to load dialogs.",
+  "noDialogs": "No dialogs yet.",
+  "noMessages": "No messages",
+  "roomFallback": "Chat #{{id}}",
+  "selectDialog": "Select a dialog to start chatting",
+  "reconnecting": "Reconnecting...",
+  "typing": "typing...",
+  "online": "online",
+  "offline": "offline",
+  "inputPlaceholder": "Type a message...",
+  "send": "Send",
+  "dateToday": "Today",
+  "dateYesterday": "Yesterday"
+}

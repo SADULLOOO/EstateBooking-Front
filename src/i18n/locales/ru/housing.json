@@ -1,0 +1,96 @@
+{
+  "page": {
+    "title": "Жильё",
+    "subtitle": "Найдите здание с комнатами под ваши задачи — от переговорных до больших залов.",
+    "loadError": "Не удалось загрузить жильё. Попробуйте позже."
+  },
+  "filters": {
+    "price": "Цена / ночь",
+    "roomType": "Тип комнат",
+    "roomsCount": "Количество комнат",
+    "from": "От",
+    "amenities": "Удобства",
+    "projector": "С проектором",
+    "reset": "Сбросить фильтры"
+  },
+  "toolbar": {
+    "searchPlaceholder": "Поиск по названию или городу...",
+    "count_one": "{{count}} объект",
+    "count_few": "{{count}} объекта",
+    "count_many": "{{count}} объектов",
+    "count_other": "{{count}} объектов",
+    "sortPriceAsc": "Сначала дешевле",
+    "sortPriceDesc": "Сначала дороже",
+    "sortRoomsDesc": "Сначала больше комнат",
+    "sortName": "По названию"
+  },
+  "grid": {
+    "empty": "Жильё не найдено. Попробуйте изменить фильтры."
+  },
+  "card": {
+    "rooms_one": "{{count}} комната",
+    "rooms_few": "{{count}} комнаты",
+    "rooms_many": "{{count}} комнат",
+    "rooms_other": "{{count}} комнат",
+    "seats_one": "{{count}} место",
+    "seats_few": "{{count}} места",
+    "seats_many": "{{count}} мест",
+    "seats_other": "{{count}} мест",
+    "fromPrice": "от {{price}}",
+    "perNight": "/ ночь",
+    "priceUnknown": "Цена не указана",
+    "totalSeats": "{{count}} мест всего"
+  },
+  "status": {
+    "roomAvailable": "Свободна",
+    "roomBooked": "Занята"
+  },
+  "detail": {
+    "notFound": "Здание не найдено",
+    "reviewsCount_one": "{{count}} отзыв",
+    "reviewsCount_few": "{{count}} отзыва",
+    "reviewsCount_many": "{{count}} отзывов",
+    "reviewsCount_other": "{{count}} отзывов",
+    "book": "Забронировать",
+    "contact": "Написать",
+    "description": "Описание"
+  },
+  "gallery": {
+    "buildingTab": "Здание",
+    "roomsTab": "Схема комнат",
+    "floor": "этаж {{floor}}",
+    "roomModelLabel": "3D-модель комнаты «{{name}}»:",
+    "openFullPage": "Смотреть галерею и 3D"
+  },
+  "amenities": {
+    "title": "Удобства",
+    "projector": "Проектор в одной из комнат",
+    "roomType": "Комнаты типа \"{{name}}\"",
+    "roomsAvailable_one": "{{count}} комната в наличии",
+    "roomsAvailable_few": "{{count}} комнаты в наличии",
+    "roomsAvailable_many": "{{count}} комнат в наличии",
+    "roomsAvailable_other": "{{count}} комнат в наличии"
+  },
+  "houseRules": {
+    "title": "Правила проживания",
+    "checkinTitle": "Заезд / выезд",
+    "checkinText": "Уточняется индивидуально при бронировании комнаты.",
+    "cancellationTitle": "Отмена",
+    "cancellationText": "Бесплатная отмена бронирования до начала срока.",
+    "orderTitle": "Порядок",
+    "orderText": "Просьба сохранять чистоту и бережно относиться к имуществу.",
+    "smokingTitle": "Курение",
+    "smokingText": "Курение внутри помещений запрещено."
+  },
+  "reviews": {
+    "title": "Отзывы",
+    "empty": "Пока нет отзывов — станьте первым."
+  },
+  "similar": {
+    "title": "Похожие объекты"
+  },
+  "owner": {
+    "title": "Владелец",
+    "notAssigned": "Владелец не назначен."
+  }
+}

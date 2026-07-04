@@ -1,0 +1,87 @@
+{
+  "page": {
+    "title": "Автомобили",
+    "subtitle": "Выберите автомобиль под ваши задачи — от эконома до премиум-класса.",
+    "loadError": "Не удалось загрузить автомобили. Попробуйте позже."
+  },
+  "filters": {
+    "price": "Цена / день",
+    "brand": "Марка",
+    "category": "Категория",
+    "rating": "Рейтинг",
+    "ratingAny": "Любой",
+    "transmission": "Коробка передач",
+    "reset": "Сбросить фильтры"
+  },
+  "toolbar": {
+    "searchPlaceholder": "Поиск по названию...",
+    "count_one": "{{count}} автомобиль",
+    "count_few": "{{count}} автомобиля",
+    "count_many": "{{count}} автомобилей",
+    "count_other": "{{count}} автомобилей",
+    "sortPriceAsc": "Сначала дешевле",
+    "sortPriceDesc": "Сначала дороже",
+    "sortRating": "По рейтингу",
+    "sortName": "По названию"
+  },
+  "grid": {
+    "empty": "Автомобили не найдены. Попробуйте изменить фильтры."
+  },
+  "card": {
+    "seats_one": "{{count}} место",
+    "seats_few": "{{count}} места",
+    "seats_many": "{{count}} мест",
+    "seats_other": "{{count}} мест",
+    "perDay": "/ день",
+    "perHour": "/ час"
+  },
+  "status": {
+    "available": "Свободен",
+    "booked": "Забронирован",
+    "availableNow": "Свободен сейчас"
+  },
+  "detail": {
+    "notFound": "Автомобиль не найден",
+    "reviewsCount_one": "{{count}} отзыв",
+    "reviewsCount_few": "{{count}} отзыва",
+    "reviewsCount_many": "{{count}} отзывов",
+    "reviewsCount_other": "{{count}} отзывов",
+    "book": "Забронировать",
+    "contact": "Написать",
+    "openFullPage": "Подробнее и забронировать"
+  },
+  "specs": {
+    "title": "Характеристики",
+    "brand": "Марка",
+    "class": "Класс",
+    "capacity": "Вместимость",
+    "plateNumber": "Госномер",
+    "transmission": "Коробка передач",
+    "location": "Местоположение",
+    "pricePerHour": "Цена / час",
+    "pricePerDay": "Цена / день",
+    "status": "Статус"
+  },
+  "reviews": {
+    "title": "Отзывы",
+    "empty": "Пока нет отзывов — станьте первым."
+  },
+  "similar": {
+    "title": "Похожие автомобили"
+  },
+  "rentalTerms": {
+    "title": "Условия аренды",
+    "driverAgeTitle": "Возраст водителя",
+    "driverAgeText": "От 21 года, стаж вождения от 2 лет.",
+    "depositTitle": "Депозит",
+    "depositText": "Удерживается на карте на время аренды, возвращается после осмотра.",
+    "fuelTitle": "Топливо",
+    "fuelText": "Возврат автомобиля с тем же уровнем топлива, что при получении.",
+    "cancellationTitle": "Отмена",
+    "cancellationText": "Бесплатная отмена бронирования до начала срока аренды."
+  },
+  "transmission": {
+    "manual": "Механика",
+    "automatic": "Автомат"
+  }
+}

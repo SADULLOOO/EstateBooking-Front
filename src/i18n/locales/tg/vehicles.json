@@ -1,0 +1,78 @@
+{
+  "page": {
+    "title": "Мошинҳо",
+    "subtitle": "Мошинро мувофиқи ниёзи худ интихоб кунед — аз эконом то премиум.",
+    "loadError": "Мошинҳо бор карда нашуданд. Баъдтар кӯшиш кунед."
+  },
+  "filters": {
+    "price": "Нарх / рӯз",
+    "brand": "Марка",
+    "category": "Категория",
+    "rating": "Рейтинг",
+    "ratingAny": "Ҳама",
+    "transmission": "Гирбокс",
+    "reset": "Партофтани филтрҳо"
+  },
+  "toolbar": {
+    "searchPlaceholder": "Ҷустуҷӯ аз рӯи ном...",
+    "count_other": "{{count}} мошин",
+    "sortPriceAsc": "Аввал арзонтар",
+    "sortPriceDesc": "Аввал қиматтар",
+    "sortRating": "Аз рӯи рейтинг",
+    "sortName": "Аз рӯи ном"
+  },
+  "grid": {
+    "empty": "Мошин ёфт нашуд. Филтрҳоро тағйир диҳед."
+  },
+  "card": {
+    "seats_other": "{{count}} ҷой",
+    "perDay": "/ рӯз",
+    "perHour": "/ соат"
+  },
+  "status": {
+    "available": "Озод",
+    "booked": "Брон шудааст",
+    "availableNow": "Ҳозир озод"
+  },
+  "detail": {
+    "notFound": "Мошин ёфт нашуд",
+    "reviewsCount_other": "{{count}} шарҳ",
+    "book": "Брон кардан",
+    "contact": "Навиштан",
+    "openFullPage": "Тафсилот ва брон кардан"
+  },
+  "specs": {
+    "title": "Хусусиятҳо",
+    "brand": "Марка",
+    "class": "Синф",
+    "capacity": "Ҳаҷм",
+    "plateNumber": "Рақами давлатӣ",
+    "transmission": "Гирбокс",
+    "location": "Ҷойгиршавӣ",
+    "pricePerHour": "Нарх / соат",
+    "pricePerDay": "Нарх / рӯз",
+    "status": "Ҳолат"
+  },
+  "reviews": {
+    "title": "Шарҳҳо",
+    "empty": "Ҳанӯз шарҳе нест — аввалин шавед."
+  },
+  "similar": {
+    "title": "Мошинҳои шабеҳ"
+  },
+  "rentalTerms": {
+    "title": "Шартҳои иҷора",
+    "driverAgeTitle": "Синни ронанда",
+    "driverAgeText": "Аз 21 сола, таҷрибаи рондан аз 2 сол.",
+    "depositTitle": "Гарав",
+    "depositText": "Дар корт нигоҳ дошта мешавад, пас аз санҷиш баргардонида мешавад.",
+    "fuelTitle": "Сӯзишворӣ",
+    "fuelText": "Мошинро бо ҳамон сатҳи сӯзишворӣ баргардонед, ки гирифта будед.",
+    "cancellationTitle": "Бекоркунӣ",
+    "cancellationText": "Бекоркунии ройгони брон пеш аз оғози мӯҳлати иҷора."
+  },
+  "transmission": {
+    "manual": "Механикӣ",
+    "automatic": "Автомат"
+  }
+}

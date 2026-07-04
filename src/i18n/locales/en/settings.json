@@ -1,0 +1,22 @@
+{
+  "title": "Settings",
+  "backButton": "Back to profile",
+  "profileCard": {
+    "title": "Profile",
+    "description": "Only address and avatar are editable — the backend doesn't allow editing other fields.",
+    "address": "Address",
+    "avatar": "Avatar",
+    "avatarAlreadyUploaded": "Current avatar is already uploaded.",
+    "saved": "Saved!",
+    "saveError": "Failed to save changes"
+  },
+  "languageCard": {
+    "title": "Interface language",
+    "description": "Switch the application language."
+  },
+  "notificationsCard": {
+    "title": "Notifications",
+    "description": "This setting is stored locally in this browser — there's no notification settings model on the backend.",
+    "toggleLabel": "Show pop-up notifications"
+  }
+}

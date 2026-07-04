@@ -1,0 +1,147 @@
+{
+  "sidebar": {
+    "panelTitle": "Admin Panel",
+    "menuToggle": "Menu",
+    "overview": "Overview",
+    "vehicles": "Vehicles",
+    "vehicleCategories": "Vehicle categories",
+    "properties": "Properties",
+    "bookings": "Bookings",
+    "reviews": "Reviews",
+    "users": "Users",
+    "notifications": "Notifications",
+    "analytics": "Analytics",
+    "backToSite": "Back to site"
+  },
+  "table": {
+    "actions": "Actions",
+    "empty": "Nothing found."
+  },
+  "toolbar": {
+    "searchPlaceholder": "Search...",
+    "recordsCount_one": "{{count}} record",
+    "recordsCount_other": "{{count}} records",
+    "addDefault": "Add"
+  },
+  "confirmDialog": {
+    "cancel": "Cancel",
+    "delete": "Delete"
+  },
+  "overview": {
+    "title": "Overview",
+    "subtitle": "Real-time platform metrics.",
+    "vehicles": "Vehicles",
+    "properties": "Properties",
+    "users": "Users",
+    "activeBookings": "Active bookings",
+    "newMessages": "New messages",
+    "newNotifications": "New notifications"
+  },
+  "vehicles": {
+    "title": "Vehicles",
+    "subtitle": "Manage the platform's vehicle fleet.",
+    "addButton": "Add vehicle",
+    "columns": { "name": "Name", "category": "Category", "plate": "Plate number", "pricePerHour": "Price/hour", "status": "Status" },
+    "confirmDelete": "Delete vehicle \"{{name}}\"?",
+    "form": {
+      "editTitle": "Edit vehicle",
+      "createTitle": "New vehicle",
+      "name": "Name",
+      "brand": "Brand",
+      "plateNumber": "Plate number",
+      "capacity": "Capacity",
+      "category": "Category",
+      "transmission": "Transmission",
+      "transmissionUnset": "Not set",
+      "location": "Location",
+      "pricePerHour": "Price / hour",
+      "pricePerDay": "Price / day",
+      "photo": "Photo",
+      "saveError": "Failed to save the vehicle"
+    }
+  },
+  "vehicleCategories": {
+    "title": "Vehicle categories",
+    "subtitle": "Vehicle classes used in the catalog and filters.",
+    "addButton": "Add category",
+    "columns": { "name": "Name", "level": "Level", "description": "Description" },
+    "confirmDelete": "Delete category \"{{name}}\"?",
+    "form": {
+      "editTitle": "Edit category",
+      "createTitle": "New category",
+      "name": "Name",
+      "level": "Level",
+      "description": "Description",
+      "saveError": "Failed to save the category"
+    }
+  },
+  "properties": {
+    "title": "Properties",
+    "subtitle": "Buildings and rooms of the platform.",
+    "addButton": "Add building",
+    "columns": { "name": "Name", "city": "City", "rooms": "Rooms", "manage": "Rooms" },
+    "manageButton": "Manage",
+    "confirmDelete": "Delete building \"{{name}}\"?",
+    "form": {
+      "editTitle": "Edit building",
+      "createTitle": "New building",
+      "name": "Name",
+      "city": "City",
+      "address": "Address",
+      "cover": "Cover image",
+      "description": "Description",
+      "saveError": "Failed to save the building"
+    },
+    "roomsManager": {
+      "title": "Rooms: {{name}}",
+      "addButton": "Add room",
+      "empty": "This building has no rooms yet.",
+      "close": "Close",
+      "columns": { "name": "Name", "floor": "Floor", "capacity": "Seats", "price": "Price/night", "status": "Status" },
+      "confirmDelete": "Delete room \"{{name}}\"?"
+    },
+    "roomForm": {
+      "editTitle": "Edit room",
+      "createTitle": "New room",
+      "name": "Name",
+      "floor": "Floor",
+      "capacity": "Capacity",
+      "pricePerNight": "Price / night",
+      "hasProjector": "Has projector",
+      "photo": "Photo",
+      "model3dUrl": "3D model link",
+      "model3dUrlHint": "Link to an embeddable 3D room viewer (optional)",
+      "saveError": "Failed to save the room"
+    }
+  },
+  "bookings": {
+    "title": "Bookings",
+    "subtitle": "All bookings across the system, regardless of who created them.",
+    "columns": { "object": "Object", "type": "Type", "start": "Start", "end": "End", "status": "Status" }
+  },
+  "reviews": {
+    "title": "Reviews",
+    "subtitle": "All reviews for buildings, rooms, and vehicles.",
+    "columns": { "user": "User", "type": "Type", "rating": "Rating", "comment": "Comment", "date": "Date" },
+    "confirmDelete": "Delete review by \"{{user}}\"?",
+    "objectType": { "building": "Housing", "room": "Room", "vehicle": "Vehicle" }
+  },
+  "users": {
+    "title": "Users",
+    "subtitle": "Manage roles and delete accounts.",
+    "columns": { "username": "Username", "email": "Email", "staff": "Staff", "role": "Role", "joined": "Joined" },
+    "confirmDelete": "Delete user \"{{username}}\"?"
+  },
+  "notifications": {
+    "title": "Notifications",
+    "subtitle": "The backend only returns notifications for the current account — there is no system-wide list, so these are the notifications for this admin account.",
+    "markAllRead": "Mark all as read ({{count}})"
+  },
+  "analytics": {
+    "title": "Analytics",
+    "subtitle": "Real distributions from platform data — no fabricated charts.",
+    "bookingsByStatus": "Bookings by status",
+    "reviewsRatingDistribution": "Review rating distribution",
+    "vehiclesByCategory": "Vehicles by category"
+  }
+}

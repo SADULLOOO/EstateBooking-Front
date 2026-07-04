@@ -1,0 +1,34 @@
+{
+  "appName": "HousingBook",
+  "loading": "Loading...",
+  "notFound": "Page not found",
+  "error": "Something went wrong",
+  "actions": {
+    "save": "Save",
+    "saving": "Saving...",
+    "cancel": "Cancel",
+    "delete": "Delete",
+    "edit": "Edit",
+    "confirm": "Confirm",
+    "close": "Close",
+    "back": "Back",
+    "search": "Search",
+    "reset": "Reset",
+    "add": "Add",
+    "viewDetails": "View details",
+    "showMore": "Show more",
+    "manage": "Manage",
+    "yes": "Yes",
+    "no": "No"
+  },
+  "status": {
+    "active": "Active",
+    "completed": "Completed",
+    "cancelled": "Cancelled",
+    "available": "Available",
+    "booked": "Booked"
+  },
+  "empty": {
+    "generic": "Nothing found."
+  }
+}

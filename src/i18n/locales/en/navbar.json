@@ -1,0 +1,13 @@
+{
+  "links": {
+    "vehicles": "Vehicles",
+    "housing": "Housing",
+    "bookings": "My bookings",
+    "chat": "Chat",
+    "profile": "Profile"
+  },
+  "admin": "Admin",
+  "login": "Log in",
+  "logout": "Log out",
+  "menu": "Menu"
+}

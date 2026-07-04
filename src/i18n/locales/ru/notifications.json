@@ -1,0 +1,29 @@
+{
+  "title": "Уведомления",
+  "subtitle": "Все события по вашим бронированиям и сообщениям.",
+  "markAllRead": "Прочитать все",
+  "markAllReadCount": "Прочитать все ({{count}})",
+  "empty": "Уведомлений пока нет.",
+  "viewAll": "Все уведомления",
+  "ariaLabel": "Уведомления",
+  "types": {
+    "message": "Сообщение",
+    "booking_created": "Новое бронирование",
+    "booking_cancelled": "Отмена брони"
+  },
+  "relativeTime": {
+    "justNow": "только что",
+    "minutesAgo_one": "{{count}} мин назад",
+    "minutesAgo_few": "{{count}} мин назад",
+    "minutesAgo_many": "{{count}} мин назад",
+    "minutesAgo_other": "{{count}} мин назад",
+    "hoursAgo_one": "{{count}} ч назад",
+    "hoursAgo_few": "{{count}} ч назад",
+    "hoursAgo_many": "{{count}} ч назад",
+    "hoursAgo_other": "{{count}} ч назад",
+    "daysAgo_one": "{{count}} дн назад",
+    "daysAgo_few": "{{count}} дн назад",
+    "daysAgo_many": "{{count}} дн назад",
+    "daysAgo_other": "{{count}} дн назад"
+  }
+}
